@@ -1,0 +1,157 @@
+
+}
+
+body	{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	font-size: 18px;
+	background-color:	#ffe2e2;
+	}
+
+h1, h2, a {
+		font-family: 'Architects Daughter', cursive;
+	}
+
+h1	{
+	font-weight: bolder;
+	color: #709fb0;
+	font-size: 40px;
+	text-justify:	center;
+	padding: 0px 0px;
+	margin-top: 0px;
+	}
+
+h2	{
+	font-weight: bold;
+	color: #838383;
+	font-size: 30px;
+	}
+
+.circle {
+	border-radius: 50%;
+	margin-bottom: 0px 0px;
+	padding: 0px 24px;
+	align-items: left;
+}
+
+a{
+	text-decoration: none;
+	color: #679b9b;
+	font-weight: bolder;
+	}
+
+a:hover	{
+	color: white;
+	}
+}
+
+
+.container {
+	padding: 12px;
+	background-color: #e8e8e8;
+	width: 700px auto;
+	margin: 30PX 30px;
+}
+
+.card-white {
+	background-color: white;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	padding:	40px;
+	border-radius: 4px solid;
+	margin: 0px 0px;
+	text-align: center;
+
+	}
+
+.card-white h2 {
+	text-align: center;
+}
+
+.btn	{
+	background-color: #679b9b;
+	color:	#ffeadb;
+	padding: 15px 20px;
+	border-radius: 3px;
+	margin-top: 30px;
+	margin-bottom: 0px;
+	align-items: right;
+	font-size: 20px;
+	}
+
+
+.banner	{
+	background-image: url(images/ban.jpg);
+	background-size: cover;
+	text-align: center;
+	padding: 50px 10px;
+	margin: 30PX 30px;
+	
+	}
+
+.banner	p{
+	font-weight: bolder;
+	font-family:'Pacifico', cursive;
+	margin-bottom: 50px;
+	font-size: 40px;
+	background-size: 10px;
+	padding: 10px;
+
+	}
+
+@media	(max-width: 500px) {
+	.banner{
+		width: 400px;
+		}
+	}
+
+
+.card {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+	padding: 1px;
+	box-shadow: 100px;
+}
+	
+.card p, h2 {
+	font-family:'Pacifico', cursive;
+}
+
+.card h2 {
+	color: #70adb5
+}
+.footer {
+	background-color: #637373;
+	box-shadow;	1px 1px 10px rgba(0,0,0,0.1);
+	text-align: center;
+	padding: 15px;
+	border-radius: 2px;
+	}
+
+#title	{
+	background-color: #dbcbbd
+}
+
+#title h2 {
+	color: black;
+	text-align: center;
+}
+
+.follow	{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.follow li	{
+	display: inline;
+	padding: 10px;
+}
+
+.follow i {
+	font-size: 50px;
+	color: black;
+}
+
+.follow i:hover {
+	color: black;
+}
